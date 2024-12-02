@@ -1,0 +1,2 @@
+[Fri Nov 08 09:56:28.429864 2024] [core:error] [pid 1196:tid 1216] (13)Permission denied: [client 192.168.3.73:60035] AH00035: access to / denied (filesystem path '/home/iot/html') because search permissions are missing on a component of the path
+[Fri Nov 08 09:56:28.519361 2024] [core:error] [pid 1195:tid 1202] (13)Permission denied: [client 192.168.3.73:60034] AH00035: access to /favicon.ico denied (filesystem path '/home/iot/html') because search permissions are missing on a component of the path, referer: http://192.168.3.144:81/

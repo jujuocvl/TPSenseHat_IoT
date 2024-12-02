@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -n "nous sommes dans le dossier" 
+pwd
+

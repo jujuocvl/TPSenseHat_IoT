@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ -z "$1" ]
+then
+   dossier=`pwd`
+fi
+if [ -d $dossier ]
+then
+	
+   echo Voici le contenu du dossier $dossier  qui contient `ls $dossier $1 | wc -l` fichiers
+   ls $dossier
+else 
+echo Aucun dossier $dossier
+fi

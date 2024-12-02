@@ -1,0 +1,17 @@
+[0;1;32m●[0m mosquitto.service - Mosquitto MQTT Broker
+     Loaded: loaded (]8;;file://raspberrypi/lib/systemd/system/mosquitto.service/lib/systemd/system/mosquitto.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Thu 2024-11-21 11:53:59 CET; 1min 9s ago
+       Docs: ]8;;man:mosquitto.conf(5)man:mosquitto.conf(5)]8;;
+             ]8;;man:mosquitto(8)man:mosquitto(8)]8;;
+    Process: 4196 ExecStartPre=/bin/mkdir -m 740 -p /var/log/mosquitto (code=exited, status=0/SUCCESS)
+    Process: 4198 ExecStartPre=/bin/chown mosquitto /var/log/mosquitto (code=exited, status=0/SUCCESS)
+    Process: 4199 ExecStartPre=/bin/mkdir -m 740 -p /run/mosquitto (code=exited, status=0/SUCCESS)
+    Process: 4201 ExecStartPre=/bin/chown mosquitto /run/mosquitto (code=exited, status=0/SUCCESS)
+   Main PID: 4203 (mosquitto)
+      Tasks: 1 (limit: 3917)
+        CPU: 51ms
+     CGroup: /system.slice/mosquitto.service
+             └─[0;38;5;245m4203 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf[0m
+
+Nov 21 11:53:59 raspberrypi systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+Nov 21 11:53:59 raspberrypi systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.
